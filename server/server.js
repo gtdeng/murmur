@@ -4,7 +4,7 @@ var tokenFactory = require('./firebaseTokenFactory').tokenFactory;
 var app = express();
 var bodyParser = require('body-parser');
 var Cookies = require("cookies");
-var serverUrl = '127.0.0.1';
+var serverUrl = '104.236.172.91';
 var fs = require('fs');
 var cors = require('cors');
 
@@ -112,4 +112,4 @@ app.post('/favorite', function(request, response) { //request.body.url = 'newPos
   firebase.toggleFavorite(request, response);
 });
 
-app.listen(4000, serverUrl);
+app.listen(80, serverUrl);
