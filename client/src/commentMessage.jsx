@@ -2,8 +2,9 @@ var React = require('react');
 var moment = require('moment');
 var Face = require('./face');
 
-var url = 'http://104.236.172.91:80/';
+// var url = 'http://104.236.172.91:80/';
 // var url = 'http://107.170.240.99:4000/';
+var url = 'http://104.131.139.49:80/';
 
 module.exports = React.createClass({
   getInitialState: function() {
