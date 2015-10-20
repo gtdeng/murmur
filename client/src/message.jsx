@@ -4,7 +4,7 @@ var CommentBox = require('./commentBox');
 var CommentMessage = require('./commentMessage');
 
 // var url = 'http://107.170.240.99:4000/';
-var url = 'http://127.0.0.1:4000/';
+var url = 'http://104.236.172.91:80/';
 
 var Message = React.createClass({
 

@@ -1,5 +1,5 @@
 var React = require('react');
-var url = 'http://127.0.0.1:4000/comment';
+var url = 'http://104.236.172.91:80/comment';
 
 var commentBox = React.createClass({
   getInitialState: function() {

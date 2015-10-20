@@ -1,5 +1,5 @@
 var React = require('react');
-var url = 'http://127.0.0.1:4000/';
+var url = 'http://104.236.172.91:80/';
 
 var SearchBox = React.createClass({
   getInitialState: function() {
